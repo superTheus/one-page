@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    --color-purple: #6C63FF;
+    --color-purple-light: #D7D5FF;
+    --color-withe: #FFFFFF;
+    --color-paragraph: #555555;
+    --color-title: #2B2B2B;
+    --color-red: #FF6363;
+    --color-blue-light: #63ECFF;
+    --color-pink: #F363FF;
+    --color-green-light: #63FF73;
+    --color-blue: #6663FF;
+    --color-yellow: #FFDD63;
+}
+
+header {
+    padding: 55px 20px;
+}
+
+h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    color: var(--color-title);
+}
+
+.btn-page {
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    height: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-withe);
+}
+
+.paragraph {
+    width: 95%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: var(--color-paragraph);
+}
+
+.cont {
+    width: 100%;
+    height: 222px;
+}
+
+.input-default {
+    height: 60px;
+}
+
+.bg-red {
+    background-color: var(--color-red);
+}
+
+.bg-green-light {
+    background-color: var(--color-green-light);
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.bg-blue-light {
+    background-color: var(--color-blue-light);
+}
+
+.bg-pink {
+    background-color: var(--color-pink);
+}
+
+.bg-pink {
+    background-color: var(--color-pink);
+}
+
+.bg-yellow {
+    background-color: var(--color-yellow);
+}
+
+.bg-purple {
+    background-color: var(--color-purple);
+}
+
+.bg-purple-light {
+    background-color: var(--color-purple-light);
+}
